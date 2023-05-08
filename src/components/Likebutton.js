@@ -30,8 +30,8 @@ export default function Button(props) {
 
                     <div class="curtidas">
                         <img src="assets/img/respondeai.svg" alt="respondeai" />
-                        <div class="texto" data-test="likes-number">
-                            Curtido por <strong>Fulano</strong> e <strong>outras {valor} pessoas</strong>
+                        <div class="texto" >
+                            Curtido por <strong>Fulano</strong> e <strong  data-test="likes-number">outras {valor} pessoas</strong>
                         </div>
                     </div>
                 </div>
