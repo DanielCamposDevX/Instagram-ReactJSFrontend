@@ -1,7 +1,9 @@
 * {
   box-sizing: border-box;
 }
-
+.vermelho{
+  color: red;
+}
 body {
   background-color: #FAFAFA;
   margin: 54px 0 0;
@@ -304,4 +306,5 @@ ion-icon {
   padding-top: 5px;
   color: black;
 }
+
 

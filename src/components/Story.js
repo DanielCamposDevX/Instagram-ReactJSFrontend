@@ -1,10 +1,10 @@
-export default function Story(){
+export default function Story(props){
     return (<div class="story">
             <div class="imagem">
-                <img src="assets/img/meowed.svg" alt="meowed" />
+                <img src={props.imagem} alt="meowed" />
             </div>
             <div class="usuario">
-                meowed
+                {props.usuario}
             </div>
         </div>)
 }
