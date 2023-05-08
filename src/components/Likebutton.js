@@ -47,7 +47,7 @@ export default function Button(props) {
                 <div class="fundo">
                     <div class="acoes">
                         <div>
-                            <ion-icon {...props} name="heart-outline" onClick={() => handleclick(11)}></ion-icon>
+                            <ion-icon {...props} name="heart-outline" onClick={() => handleclick(11)} data-test="like-post"></ion-icon>
                             <ion-icon name="chatbubble-outline"></ion-icon>
                             <ion-icon name="paper-plane-outline"></ion-icon>
                         </div>

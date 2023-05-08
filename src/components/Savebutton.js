@@ -5,7 +5,7 @@ export default function Button(props){
     function handleclick(){
         setLigado(!ligado)
     }
-    if(ligado){return(<ion-icon {...props} name="bookmark" onClick={() => handleclick()} ></ion-icon>)}
+    if(ligado){return(<ion-icon {...props} name="bookmark" onClick={() => handleclick()}data-test="save-post" ></ion-icon>)}
     else{
     return (
         <ion-icon {...props} name="bookmark-outline" onClick={() => handleclick()} data-test="save-post"></ion-icon>
