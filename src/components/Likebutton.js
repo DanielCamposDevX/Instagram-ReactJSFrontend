@@ -31,7 +31,7 @@ export default function Button(props) {
                     <div class="curtidas">
                         <img src="assets/img/respondeai.svg" alt="respondeai" />
                         <div class="texto" >
-                            Curtido por <strong>Fulano</strong> e <strong  data-test="likes-number">outras {valor} pessoas</strong>
+                            Curtido por <strong>Fulano</strong> e <h6>outras {valor} pessoas</h6>
                         </div>
                     </div>
                 </div>
@@ -59,7 +59,7 @@ export default function Button(props) {
                     <div class="curtidas">
                         <img src="assets/img/respondeai.svg" alt="respondeai" />
                         <div class="texto">
-                            Curtido por <strong>Fulano</strong> e <strong>outras {valor} pessoas</strong>
+                            Curtido por <strong>Fulano</strong> e <h6 data-test="likes-number">outras {valor} pessoas</h6>
                         </div>
                     </div>
                 </div>
